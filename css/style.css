@@ -1,0 +1,850 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {  margin: 0;  padding: 0;  border: 0;  font-size: 100%;  font: inherit;  vertical-align: baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {  display: block;}body {  line-height: 1;}ol,ul {  list-style: none;}blockquote,q {  quotes: none;}blockquote:before,blockquote:after,q:before,q:after {  content: '';  content: none;}table {  border-collapse: collapse;  border-spacing: 0;}body {  font-family: 'Poppins', sans-serif;}
+
+/* header */
+
+.topBack {
+  background-image: url('../images/topBack.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+}
+
+.topMain {
+  position: relative;
+  bottom: 62px;
+}
+
+.customNav {
+  background-color: transparent !important;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  top: 30px;
+}
+
+.customNav li {
+  margin-right: 6px;
+}
+
+.customNav a {
+  color: white !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  border-bottom: 2px solid #f3c461;
+  padding-bottom: 14px;
+}
+
+/* Header Banner */
+
+.bannerMain {
+  font-size: 30px;
+  font-weight: 700;
+  font-weight: 700;
+}
+
+.bannerSub {
+  font-size: 70px;
+  font-family: 'Playfair Display', serif;
+}
+
+.bannerP {
+  font-size: 20px;
+  color: #666666;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.bannerBtn {
+  color: black;
+  font-size: 14px;
+  border-radius: 25px;
+  border: 1px solid #f3c461;
+  background-color: #f3c461;
+  font-weight: 700;
+}
+
+.bannerBtn:hover {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  transition: 0.3s ease-in-out;
+}
+
+/* ==================================== Banner Text ================================================ */
+
+.banner-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+.bannerText {
+  padding: 0px 35px 0px 0px;
+}
+
+.arrow-div {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  background: #ffde84;
+  display: flex;
+  align-items: center;
+  right: -65px;
+  z-index: 999;
+}
+
+.arrow-div>h3 {
+  font-weight: 600;
+  color: #907429;
+  margin: 0px 15px 0px 0px;
+}
+
+/* ==================================== Choose ================================================ */
+
+.choose h1 {
+  color: #93731d;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 35px;
+  border-bottom: 4px solid white;
+}
+
+.choose h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.choose p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 27px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.chooseImgRow {
+  margin-top: 88px;
+}
+
+.chooseImgBorder {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  transform: rotate(230deg);
+  padding: 22px 14px;
+  box-shadow: 1px 1px 20px #bebebe;
+}
+
+.chooseImgBorder2 {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  transform: rotate(230deg);
+  padding: 8px 14px;
+  box-shadow: 1px 1px 20px #bebebe;
+}
+
+.chooseImg {
+  transform: rotate(-230deg);
+}
+
+.cardHeading {
+  color: #000000 !important;
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+  transition: 0.3s ease-in-out;
+  line-height: 37px;
+}
+
+.cardHeading:hover {
+  color: #93731d !important;
+  padding-bottom: 35px;
+  border-bottom: 4px solid #93731d;
+  transition: 0.3s ease-in-out;
+}
+
+.activeCard {
+  color: #93731d !important;
+  padding-bottom: 35px;
+  border-bottom: 4px solid #93731d !important;
+}
+
+/* ==================================== Choice ================================================ */
+
+.choiceBack {
+  background-image: url('../images/propertyBack.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 90px 0;
+  margin-top: 102px;
+}
+
+.choiceBack h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.choiceBack span {
+  color: #f3c461;
+}
+
+.choiceBack h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.fa-arrow-right {
+  background-color: #f3c461;
+  border-radius: 100%;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* ==================================== Properties ==================================================== */
+
+.properties h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.properties span {
+  color: #93731d;
+}
+
+.properties p {
+  font-size: 22px;
+  color: black;
+  line-height: 26px;
+}
+
+a#pills-home-tab,
+a#pills-profile-tab,
+a#pills-contact-tab {
+  background: white;
+  color: #666666;
+  font-size: 15px;
+  padding: 5px 9px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #93731d !important;
+}
+
+.propertyMain {
+  position: relative;
+}
+
+.cardImg {
+  width: 100%;
+}
+
+.sold {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  color: #ffffff !important;
+  padding: 10px;
+}
+
+.soldRed {
+  background-color: red;
+}
+
+.soldGrey {
+  background-color: #445064;
+}
+
+.price {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  color: #ffffff !important;
+  padding: 10px;
+  background-color: #93731d;
+}
+
+.propertytIcon {
+  background-color: #f2f2f2;
+  color: #666666;
+  font-size: 11px;
+  position: relative;
+  top: -3px;
+  padding: 15px;
+}
+
+.propertytIcon p {
+  font-size: 12px;
+}
+
+.propertyName {
+  color: #666666;
+}
+
+.propertytIcon p {
+  font-size: 12px;
+}
+
+.propertyName p {
+  font-size: 19px;
+  color: #666666;
+}
+
+.propertyNamePara {
+  color: #666666;
+  font-weight: 600 !important;
+}
+
+/* ==================================== Maintenance ================================================= */
+
+.maintenance {
+  background-image: url('../images/maintenceBack.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 150px;
+}
+
+.maintenanceText {
+  padding: 100px 0;
+}
+
+.maintenance h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  line-height: 60px;
+}
+
+.maintenance p {
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+}
+
+.maintenanceImgDiv {
+  position: relative;
+}
+
+.maintenanceImg {
+  position: absolute;
+  top: -73px;
+  right: 0;
+}
+
+/* ==================================== Properties2 ================================================= */
+
+.properties2 {
+  margin-top: 108px;
+}
+
+/* ==================================== Testimonial ================================================= */
+
+.testimonial {
+  background-image: url('../images/testimonialBack.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 250px 0;
+}
+
+.testimonialImg {
+  width: 100px !important;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.testimonialH {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.testimonialH2 {
+  color: white;
+  font-size: 20px;
+}
+
+.testimonialP {
+  color: white;
+  font-size: 16px;
+  margin: 0 auto;
+  line-height: 30px;
+  width: 82%;
+  position: relative;
+}
+
+.testimonialP::before {
+  content: '';
+  background-image: url('../images/quotation1.png');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: -15px;
+  left: -60px;
+}
+
+.testimonialP::after {
+  content: '';
+  background-image: url('../images/quotation2.png');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: -58px;
+  right: -150px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: white;
+}
+
+button.owl-prev {
+  display: none !important;
+}
+
+button.owl-next {
+  display: none !important;
+}
+
+/* ==================================== Card ================================================= */
+
+.mycard {
+  position: relative;
+}
+
+.cardBack {
+  background-color: white;
+  position: absolute;
+  bottom: -450px;
+  padding: 30px;
+}
+
+.cardDiv {
+  position: relative;
+}
+
+.cardImg {
+  width: 100%;
+}
+
+.cardDescription {
+  position: absolute;
+  bottom: -33px;
+  left: 54px;
+}
+
+.cardDate {
+  background-color: #f9a11b;
+  color: white;
+  text-align: center;
+  padding: 5px 8px;
+  width: 12%;
+}
+
+.cardText {
+  background-color: white;
+  width: 85%;
+  padding: 21px;
+  box-shadow: 1px 1px 12px 0px #bfbfbf;
+}
+
+.cardText h1 {
+  font-size: 20px;
+  color: #a37515;
+  font-weight: 600;
+}
+
+.cardText p {
+  font-size: 13px;
+  color: #666666;
+}
+
+/* ==================================== Lawyer ================================================= */
+
+.lawyer {
+  background-image: url('../images/lawyerBack.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 400px;
+}
+
+.lawyerText {
+  padding: 88px 0 80px 0;
+}
+
+.lawyer h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  line-height: 60px;
+}
+
+.lawyer p {
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+}
+
+.lawyerImgDiv {
+  position: relative;
+}
+
+.lawyerImg {
+  position: absolute;
+  top: -72px;
+  right: 0;
+}
+
+.allBtn {
+  color: #89651a !important;
+  font-size: 14px;
+  border-radius: 25px;
+  border: 1px solid #f3c461;
+  background-color: #f3c461;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 20px 55px;
+}
+
+.allBtn:hover {
+  color: #89651a !important;
+  text-decoration: none;
+  background-color: white;
+  transition: 0.3s ease-in-out;
+}
+
+/* ==================================== Footer ================================================= */
+
+.footerBack {
+  padding: 60px 0 100px 0;
+}
+
+.footerH {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footerli a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.footerli li {
+  color: #666666;
+  font-size: 15px;
+  padding-top: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.contactIcons {
+  color: #f3c461;
+}
+
+.fa-phone {
+  transform: rotate(90deg);
+}
+
+button#button-addon2 {
+  border-radius: 25px;
+  color: white;
+  background-color: #f3c461;
+  border: 1px solid #f3c461;
+  position: relative;
+  right: 30px;
+  z-index: 999;
+}
+
+.footerCopy {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.form-control {
+  border-radius: 25px !important;
+  border: none;
+  box-shadow: 1px 1px 12px 0px #bfbfbf;
+}
+
+.form-control:focus {
+  outline: none !important;
+  box-shadow: 1px 1px 12px 0px #bfbfbf;
+}
+
+.form-control::placeholder {
+  color: #666666;
+}
+
+.socialIcons {
+  color: #666666;
+  background: #ffffff;
+  border-radius: 100%;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+  box-shadow: 1px 1px 12px 0px #bfbfbf;
+}
+
+.socialIcons:hover {
+  color: white;
+  background: #f3c461;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-ul>li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.copyBack {
+  border-top: 1px solid #f4f4f4;
+}
+
+.copyBack p {
+  color: #666666;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* ==================================== Media Queries ================================================= */
+
+@media(max-width:1199px) {
+  .customNav li {
+    margin-right: 0px;
+  }
+  .maintenanceImg {
+    top: -25px;
+  }
+  .iconsDiv {
+    margin-top: 8px;
+  }
+}
+
+@media(max-width:991px) {
+  .customNav {
+    position: static;
+  }
+  .topBack {
+    display: none;
+  }
+  .topMain {
+    position: static;
+  }
+  .customNav a {
+    color: black !important;
+  }
+  .banner-col {
+    position: static;
+    align-items: center;
+  }
+  .arrow-div {
+    position: static;
+  }
+  .ChooseImgGap3 {
+    margin-top: 70px;
+  }
+  .choose p {
+    width: 100%;
+  }
+  .chooseImgRow {
+    margin-top: 50px;
+  }
+  .choiceBack {
+    padding: 20px 0;
+    margin-top: 35px;
+  }
+  .choiceImg {
+    width: 100%;
+  }
+  .propertytIcon {
+    text-align: center;
+  }
+  .maintenance,
+  .lawyer {
+    margin-top: 0px;
+  }
+  .maintenance h1 {
+    font-size: 43px;
+  }
+  .maintenanceText,
+  .lawyerText {
+    padding: 30px 0;
+  }
+  .maintenanceImgDiv,
+  .lawyerImgDiv {
+    display: none;
+  }
+  .maintenanceImg,
+  .lawyerImg {
+    display: none;
+  }
+  .testimonial {
+    padding: 50px 0;
+  }
+  .testimonialP {
+    width: 100%;
+  }
+  .testimonialP::before {
+    top: -18px;
+    left: 0px;
+  }
+  .testimonialP::after {
+    bottom: -86px;
+    right: 30px;
+  }
+  .cardDiv2 {
+    margin-top: 80px;
+  }
+  .mycard {
+    position: static;
+  }
+  .cardBack {
+    position: static
+  }
+  .footerBack {
+    padding: 40px 0 40px 0;
+  }
+}
+
+@media (max-width:767px) {
+  .bannerMain {
+    font-size: 26px;
+  }
+  .bannerSub {
+    font-size: 60px;
+  }
+  .chooseImgGap {
+    margin-top: 80px;
+  }
+  .ChooseImgGap3 {
+    margin-top: 0px;
+  }
+  .choiceBack h1 {
+    font-size: 45px;
+  }
+  .choiceBack h2 {
+    font-size: 22px;
+  }
+  .properties2 {
+    margin-top: 50px;
+  }
+  .testimonialP::after {
+    bottom: -72px;
+    right: 15px;
+  }
+  .cardDate {
+    width: 30%;
+  }
+  .cardText {
+    width: 100%;
+  }
+  .cardDescription {
+    left: 0;
+  }
+  .lawyer h1 {
+    font-size: 43px;
+  }
+  .footerBack {
+    padding: 20px 0 20px 0;
+  }
+}
+
+@media(max-width:480px) {
+  .bannerMain {
+    font-size: 22px;
+  }
+  .bannerSub {
+    font-size: 39px;
+  }
+  .arrow-div {
+    flex-direction: column;
+  }
+  .choose h2 {
+    font-size: 35px;
+  }
+  .cardHeading {
+    font-size: 20px !important;
+  }
+  .choiceBack h1 {
+    font-size: 32px;
+  }
+  .choiceBack h2 {
+    font-size: 20px;
+  }
+  .properties h1 {
+    font-size: 22px;
+  }
+  .properties p {
+    font-size: 17px;
+  }
+  .propertyName p {
+    font-size: 18px;
+  }
+  #pills-tab {
+    display: block;
+    text-align: center;
+  }
+  .maintenance h1 {
+    font-size: 28px;
+  }
+  .maintenance p {
+    font-size: 18px;
+  }
+  .cardDiv2 {
+    margin-top: 30px;
+  }
+  .cardDescription {
+    position: static;
+  }
+  .cardBack {
+    padding: 10px 0;
+  }
+  .testimonialP::after {
+    bottom: -72px;
+    right: -56px;
+  }
+  .lawyer h1 {
+    font-size: 28px;
+  }
+  .lawyer p {
+    font-size: 18px;
+  }
+  .footerBack {
+    padding: 15px 0 15px 0;
+  }
+}
